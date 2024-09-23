@@ -1,0 +1,101 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.form-container{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid black;
+    margin: auto 2rem;
+}
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.formgroup{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding:10px;
+}
+
+label{
+    font-size: 1rem;
+}
+
+input{
+    padding:5px;
+    width:20rem;
+}
+
+.desc{
+    margin-left:-1.8rem ;
+}
+
+.submit{
+    margin: 1rem auto;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.service-list{
+    width: 50vw;
+    margin: 1rem;
+}
+
+.list-item{
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    height: 11rem;
+    background-color: grey;
+    color: white;
+}
+
+.title-btns{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.description{
+    margin: 0;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-container{
+        width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto 2rem;
+    }
+}
